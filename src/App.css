@@ -1,0 +1,120 @@
+/* Media Query */
+@media (max-width: 768px) {
+  body {
+    background: linear-gradient(45deg, #6ED4E8, #f4f4f4);
+  }
+
+  #root,
+  .counter {
+    padding: 1rem;
+  }
+
+  .counter button {
+    font-size: 14px;
+    padding: 8px 16px;
+  }
+
+  .counter input {
+    font-size: 16px;
+  }
+
+  .counter h1 {
+    font-size: 32px;
+    margin: 10px;
+  }
+
+  .counter h2 {
+    font-size: 20px;
+    margin: 10px;
+  }
+}
+
+/* General Styles */
+body {
+  background-color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, #6ED4E8, #f4f4f4);
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.counter, .container {
+  text-align: center;
+  background-color: #e6f7ff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+}
+
+div h1, .container h1 {
+  font-size: 42px;
+  margin: 20px;
+  color: #213547;
+  font-weight: bolder;
+}
+
+.container h2 {
+  font-size: 24px;
+  margin: 20px;
+  color: #213547;
+  font-weight: bolder;
+}
+
+div button,
+.counter button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out, transform 0.2s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+div button:hover,
+.counter button:hover {
+  background-color: #0069d9;
+  transform: scale(1.1);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.counter input {
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #007bff;
+  border-radius: 8px;
+  text-align: center;
+  color: #333;
+  background-color: #f7f7f7;
+  transition: border 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.counter input:focus {
+  border: 1px solid #0069d9;
+  box-shadow: 0 0 5px rgba(0, 105, 217, 0.5);
+}
+
+.counter h1 {
+  font-size: 42px;
+  margin: 20px;
+  color: #0069d9;
+}
+
+.counter h2 {
+  font-size: 24px;
+  margin: 20px;
+  color: #0069d9;
+}
