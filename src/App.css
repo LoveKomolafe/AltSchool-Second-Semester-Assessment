@@ -60,7 +60,7 @@ div h1, .container h1 {
   font-weight: bolder;
 }
 
-.container h2 {
+div h3, .container h2 {
   font-size: 24px;
   margin: 20px;
   color: #213547;
